@@ -1,0 +1,113 @@
+/* who-we-are section  */
+
+.who-we-are {
+	background: url("../img/about-bg.png") -30px 230px/800px 100% no-repeat #5D62B5;
+	border-radius: 40px;
+	padding: 80px 80px 0px;
+	margin: 0px 0px 450px 0px;
+	max-height: 635px;
+}
+
+.subtitle {
+	font-weight: 900;
+	font-size: 12px;
+	line-height: 120%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px 0px 30px 0px;
+}
+
+.subtitle::before {
+	content: "";
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	background: url("../img/mark.svg") 0 5px /20px no-repeat;
+	margin: 0px 10px 0px 0px;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	color: #fff;
+	max-width: 585px;
+	margin: 0px 0px 35px 0px;
+}
+
+.who-we-are__text {
+	line-height: 150%;
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
+	margin: 0px 0px 45px 0px;
+}
+
+.who-we-are__image img {
+	border-radius: 40px;
+	filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+	transform: translate(0px, 0px);
+	width: 100%;
+	height: auto;
+}
+
+/* impact section  */
+
+.impact {
+	background: url("../img/impact-bg.png") 80% 0 no-repeat #29C3BE;
+	border-radius: 40px;
+	padding: 65px 80px;
+	margin: 0px 0px 200px 0px;
+	position: relative;
+}
+
+.impact__text-block {
+	max-width: 40%;
+}
+
+.impact__image {
+	position: absolute;
+	top: -95px;
+	left: 550px;
+}
+
+.impact__image img {
+	border-radius: 40px;
+	filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+
+}
+
+.impact__items {
+	margin: 125px 0px 0px 0px;
+}
+
+.items-impact {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+}
+
+.item__icon {
+	max-width: 76px;
+	margin: 0px 12px 0px 0px;
+}
+
+.item__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	color: #fff;
+	margin: 0px 0px 5px 0px;
+}
+
+.item__subtitle {
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
